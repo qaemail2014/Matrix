@@ -21,13 +21,13 @@ namespace Matrix
             {
                 try
                 {
-                    Console.WriteLine("Введите количество " + stroki + " " + numbermatrix + " матрицы. Максимальный размер 10.");
+                    Console.WriteLine("Введите количество " + stroki + " " + numbermatrix + " матрицы и нажмите Enter. Максимальный размер 10.");
                     nstrmatr = Console.ReadLine();
                     int nm = Convert.ToInt32(nstrmatr);
                     while (nm > 10 || nm<1)
                     {
                         Console.WriteLine("Неправильное количество " + stroki + ".Введите значение от 1 до 10.");
-                        Console.WriteLine("Введите количество " + stroki + " " + numbermatrix + " матрицы");
+                        Console.WriteLine("Введите количество " + stroki + " " + numbermatrix + " матрицы и нажмите Enter.");
                         nstrmatr = Console.ReadLine();
                         nm = Convert.ToInt32(nstrmatr);
                     } 
@@ -61,7 +61,7 @@ namespace Matrix
                     {
                         try
                         {
-                            Console.WriteLine("Введите " + q + w + " элемент "+ntmatrix+" матрицы");
+                            Console.WriteLine("Введите " + q + w + " элемент "+ntmatrix+" матрицы и нажмите Enter.");
                             tempfres = Console.ReadLine();
                             arraymatrfunc[q, w] = Convert.ToDouble(tempfres);
                         }
