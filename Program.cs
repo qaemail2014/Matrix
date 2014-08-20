@@ -46,7 +46,7 @@ namespace Matrix
         // Функция ввода элементов матрицы
         public static double[,] TypeMatrix(string ntmatrix, int nmf, int mmf)
         {
-            double[,] arraymatrfunc = new double[10, 10];
+            double[,] arraymatrfunc = new double[11, 11];
             int q = 0;
             int w = 0;
             int k = 0;
@@ -106,9 +106,9 @@ namespace Matrix
             int mm1 = 0;
             int nm2 = 0;
             int mm2 = 0;
-            double[,] arraymatr1 = new double[10,10];
-            double[,] arraymatr2 = new double[10, 10];
-            double[,] arrayresmatr = new double[10, 10];
+            double[,] arraymatr1 = new double[11,11];
+            double[,] arraymatr2 = new double[11, 11];
+            double[,] arrayresmatr = new double[11, 11];
             string conf = "";
             nm1 = TypeSizeMatrix("строк", "первой");
             mm1 = TypeSizeMatrix("столбцов", "первой");
