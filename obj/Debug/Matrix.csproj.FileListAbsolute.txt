@@ -4,3 +4,9 @@ D:\Trainings\NET\Matrix\Matrix\bin\Debug\Matrix.exe
 D:\Trainings\NET\Matrix\Matrix\bin\Debug\Matrix.pdb
 D:\Trainings\NET\Matrix\Matrix\obj\Debug\Matrix.exe
 D:\Trainings\NET\Matrix\Matrix\obj\Debug\Matrix.pdb
+D:\Trainings\Test\Matrix\bin\Debug\Matrix.exe.config
+D:\Trainings\Test\Matrix\obj\Debug\Matrix.exe
+D:\Trainings\Test\Matrix\obj\Debug\Matrix.pdb
+D:\Trainings\Test\Matrix\bin\Debug\Matrix.exe
+D:\Trainings\Test\Matrix\bin\Debug\Matrix.pdb
+D:\Trainings\Test\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache

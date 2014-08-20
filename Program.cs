@@ -151,13 +151,15 @@ namespace Matrix
                     }
                 }
                 //Вывод результата
-                ViewMatrix ("Результирующая", nm1, mm2, arrayresmatr);
+                ViewMatrix("Результирующая", nm1, mm2, arrayresmatr);
+                Console.WriteLine("Спасибо, что воспользовались наше программой!");
             }
             //При отмене вычисления
             if (conf == "n")
             {
                 Console.WriteLine ("Извините за беспокойство.");
             }
+            Console.WriteLine("Нажмите клавишу Enter для выхода...");
             Console.ReadLine();
         }
     }
